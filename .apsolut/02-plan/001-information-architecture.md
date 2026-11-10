@@ -32,11 +32,11 @@ Map every public section and its first pages for the VitePress site. Progressive
 
 | Page | Path | Status | Notes |
 |------|------|--------|-------|
-| Overview | `/run-agents/` | Outline | |
+| Overview | `/run-agents/` | **Full** | |
 | n8n vs custom code | `/run-agents/n8n-vs-custom` | **Full** | First solid guide |
-| Hosting | `/run-agents/hosting` | Stub | Hetzner / IONOS / Coolify |
-| Evals & monitoring | `/run-agents/evals-monitoring` | Stub | |
-| Costs | `/run-agents/costs` | Stub | |
+| Hosting | `/run-agents/hosting` | **Full** | Hetzner / IONOS / Coolify |
+| Evals & monitoring | `/run-agents/evals-monitoring` | **Full** | |
+| Costs | `/run-agents/costs` | **Full** | Formulas, no vendor prices |
 
 ## 3 · Offer clients (`docs/offer-clients/`)
 

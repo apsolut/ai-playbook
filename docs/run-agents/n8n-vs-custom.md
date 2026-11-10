@@ -53,6 +53,6 @@ For [website & support](/offer-clients/three-standard-agents), **lead qualifier*
 
 ## Next
 
-- [Hosting](/run-agents/hosting) (stub) — Hetzner / IONOS / Coolify
-- [Evals & monitoring](/run-agents/evals-monitoring) (stub)
-- [Costs](/run-agents/costs) (stub)
+- [Hosting](/run-agents/hosting) — Hetzner, IONOS, Coolify
+- [Evals & monitoring](/run-agents/evals-monitoring)
+- [Costs](/run-agents/costs)
