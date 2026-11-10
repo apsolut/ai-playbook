@@ -52,10 +52,10 @@ Map every public section and its first pages for the VitePress site. Progressive
 
 | Page | Path | Status | Notes |
 |------|------|--------|-------|
-| Overview | `/what-to-buy/` | Outline | |
+| Overview | `/what-to-buy/` | **Full** | |
 | Tools & plans | `/what-to-buy/tools-and-plans` | **Full** | First solid guide |
-| Hardware | `/what-to-buy/hardware` | Stub | |
-| API vs consumer plans | `/what-to-buy/api-vs-consumer` | Stub | |
+| Hardware | `/what-to-buy/hardware` | **Full** | Laptop vs local inference |
+| API vs consumer plans | `/what-to-buy/api-vs-consumer` | **Full** | Why consumer chat is not for client data |
 
 ## 5 · Legal DE/EU (`docs/legal/`) — chapter 1 priority
 

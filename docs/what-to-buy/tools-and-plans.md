@@ -35,7 +35,7 @@ Skip: five overlapping chat subscriptions, “agent marketplaces” you cannot A
 - **APIs** shine for production agents (metered, region-pinned, contractual DPA).
 - Running production traffic through a consumer UI usually fails residency, logging, and AVV checks.
 
-Details stub: [API vs consumer plans](/what-to-buy/api-vs-consumer).
+Details: [API vs consumer plans](/what-to-buy/api-vs-consumer).
 
 ## Complex — when to spend more
 
@@ -46,6 +46,6 @@ Details stub: [API vs consumer plans](/what-to-buy/api-vs-consumer).
 
 ## Next
 
-- [Hardware](/what-to-buy/hardware) (stub)
-- [API vs consumer](/what-to-buy/api-vs-consumer) (stub)
-- [Costs when running agents](/run-agents/costs) (stub)
+- [Hardware](/what-to-buy/hardware)
+- [API vs consumer plans](/what-to-buy/api-vs-consumer)
+- [Costs when running agents](/run-agents/costs)
