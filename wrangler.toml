@@ -1,0 +1,16 @@
+# Cloudflare Pages — static VitePress site. No bindings and no secrets.
+#
+# Git integration (Cloudflare dashboard; this file does not set the build command):
+#   Build command:        npm run build
+#   Build output dir:     docs/.vitepress/dist
+#   Root directory:       /
+#   Node version:         20+
+#   Framework preset:     None (do not use the VitePress preset; sources live in docs/)
+#
+# pages_build_output_dir is the asset folder Wrangler and Pages read.
+# Manual upload after a local `npx wrangler login`:
+#   npm run build && npx wrangler pages deploy docs/.vitepress/dist
+
+name = "apsolut-ai-playbook"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "docs/.vitepress/dist"

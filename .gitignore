@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Local reference clones (do not commit)
+.ref/
+
+# Env / OS
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Claude Code (machine-local)
+.claude/settings.local.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# apsolut (davinci): keep the binary folders + their templates, ignore the binaries
+.apsolut/07-files/*
+!.apsolut/07-files/000-template.md
+.apsolut/08-screenshots/*
+!.apsolut/08-screenshots/000-template.md
+
+# graphify project outputs (if generated in-repo)
+graphify-out/
+
+# Private multi-project catalogs / operator dumps (never publish)
+**/catalog.json
+**/catalog.md
+!docs/**/catalog.md
+.sites-catalog/
+catalog.local.*
+
+# impeccable ephemeral (keep shared config tracked)
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/hook.pending.json
+.impeccable/*.png
+.impeccable/live/server.json
+.impeccable/live/sessions/
+.impeccable/live/previews/
+.impeccable/live/annotations/
+.impeccable/live/cache/
