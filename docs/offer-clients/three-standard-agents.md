@@ -52,11 +52,14 @@ Disclose AI on the widget ([compliance checklist](/legal/germany-eu-compliance))
 
 ## Shared delivery checklist
 
+The long form, with handover notes, is the [delivery checklist](/offer-clients/delivery-checklist). Minimum before production:
+
 - [ ] EU LLM path + DPAs ([legal](/legal/germany-eu-compliance))
 - [ ] Art. 50 disclosure on any public chat surface
-- [ ] Retention set for transcripts
-- [ ] Eval set of 20–50 real questions (redacted)
+- [ ] Retention set for transcripts ([retention defaults](/legal/retention))
+- [ ] Eval set of 20–50 real questions, redacted ([evals](/run-agents/evals-monitoring))
 - [ ] Kill switch / disable flag documented for the client
+- [ ] Scope written down ([discovery](/offer-clients/discovery)) so a new channel is a change, not a surprise
 
 ## What not to invent as a “fourth standard”
 

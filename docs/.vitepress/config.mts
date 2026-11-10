@@ -39,6 +39,8 @@ const sidebar = [
       { text: 'Overview', link: '/offer-clients/' },
       { text: 'Three standard agents', link: '/offer-clients/three-standard-agents' },
       { text: 'Tiers & pricing', link: '/offer-clients/tiers' },
+      { text: 'Discovery & scoping', link: '/offer-clients/discovery' },
+      { text: 'Delivery checklist', link: '/offer-clients/delivery-checklist' },
     ],
   },
   {

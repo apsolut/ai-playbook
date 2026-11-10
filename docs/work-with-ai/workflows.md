@@ -97,7 +97,7 @@ Discovery notes (no dumps)
 
 Staging uses staging keys. Production keys are not on your laptop “just for a test.”
 
-The client sees a handover, not your chat history: how to disable the agent, where transcripts live, who gets alerts. Start from the shared list on [Three standard agents](/offer-clients/three-standard-agents).
+The client sees a handover, not your chat history: how to disable the agent, where transcripts live, who gets alerts. Use the [delivery checklist](/offer-clients/delivery-checklist).
 
 ### Kill switch
 

@@ -42,9 +42,11 @@ Map every public section and its first pages for the VitePress site. Progressive
 
 | Page | Path | Status | Notes |
 |------|------|--------|-------|
-| Overview | `/offer-clients/` | Outline | |
+| Overview | `/offer-clients/` | **Full** | |
 | Three standard agents | `/offer-clients/three-standard-agents` | **Full** | Website & support, lead qualifier & booker, back-office inbox |
-| Tiers & pricing | `/offer-clients/tiers` | Stub | Starter ~€2,900 · Pro ~€5–7k · Care ~€300–600/mo |
+| Tiers & pricing | `/offer-clients/tiers` | **Full** | Starter ~€2,900 · Pro ~€5–7k · Care ~€300–600/mo |
+| Discovery & scoping | `/offer-clients/discovery` | **Full** | Questions and scope sheet |
+| Delivery checklist | `/offer-clients/delivery-checklist` | **Full** | Handover and kill switch |
 
 ## 4 · What to buy (`docs/what-to-buy/`)
 
