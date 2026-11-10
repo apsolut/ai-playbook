@@ -61,10 +61,10 @@ Map every public section and its first pages for the VitePress site. Progressive
 
 | Page | Path | Status | Notes |
 |------|------|--------|-------|
-| Overview | `/legal/` | Outline | Always link compliance checklist |
+| Overview | `/legal/` | **Full** | Map, Art. 50 and Annex III dates, not-legal-advice |
 | Germany/EU compliance checklist | `/legal/germany-eu-compliance` | **Full (chapter 1)** | EU LLM providers, AVV/DPA, OpenRouter caution, retention, Art. 50 disclosure EN/DE, Art. 4 literacy, Annex III high-risk avoid, not-legal-advice |
-| AVV / DPA deep dive | `/legal/avv-checklist` | Stub | Extends checklist |
-| Retention defaults | `/legal/retention` | Stub | 30–90 day defaults |
+| AVV / DPA deep dive | `/legal/avv-checklist` | **Full** | Art. 28, sub-processors |
+| Retention defaults | `/legal/retention` | **Full** | 30–90 day operator default |
 
 ## levels convention
 

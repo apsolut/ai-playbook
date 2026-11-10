@@ -5,11 +5,11 @@ description: EU LLM hosting, AVV/DPA checklist, retention, AI Act Art. 50 disclo
 
 # Germany/EU compliance checklist for client AI agents
 
-<LevelBadge level="everyday" /> Practical checklist before you put a client-facing agent into production in Germany or elsewhere in the EU.
-
 ::: danger Not legal advice
 This page is an **operator checklist** for freelancers and small agencies. It summarizes publicly available EU rules and provider documentation. It is **not legal advice**, not a law-firm memo, and not a substitute for qualified counsel, your client's DPO, or a formal DPIA where one is required. Laws and provider terms change — verify the linked official sources before you decide.
 :::
+
+<LevelBadge level="everyday" /> Practical checklist before you put a client-facing agent into production in Germany or elsewhere in the EU.
 
 ## Who this is for
 
@@ -192,6 +192,7 @@ Stick to **limited-risk** interactive assistants with transparency, or get speci
 
 ## Next
 
-- Stub: [AVV / DPA deep dive](/legal/avv-checklist)
-- Stub: [Retention defaults](/legal/retention)
+- [AVV / DPA deep dive](/legal/avv-checklist)
+- [Retention defaults](/legal/retention)
+- [Legal overview](/legal/) — dates for Art. 50 and Annex III
 - Related offer shape: [Three standard agents](/offer-clients/three-standard-agents)
