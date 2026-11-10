@@ -40,9 +40,9 @@ const labels = {
 }
 
 .level[data-level='everyday'] {
-  background: var(--gh-brand-light, #e8f0f8);
-  color: var(--gh-brand-hover, #2d5a8a);
-  border-color: color-mix(in srgb, var(--gh-brand, #3a6ea5) 25%, transparent);
+  background: var(--gh-brand-light, #e7f4ef);
+  color: var(--gh-brand-hover, #185748);
+  border-color: color-mix(in srgb, var(--gh-brand, #1f6f5c) 25%, transparent);
 }
 
 .level[data-level='advanced'] {
@@ -61,7 +61,7 @@ const labels = {
   color: var(--gh-teal, #7bb3a8);
 }
 .dark .level[data-level='everyday'] {
-  color: var(--gh-brand-muted, #6b9bc3);
+  color: var(--gh-brand-muted, #6bc9ab);
 }
 .dark .level[data-level='advanced'] {
   color: var(--gh-gold, #f9c270);

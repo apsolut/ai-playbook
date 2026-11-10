@@ -2,11 +2,12 @@
 name: AI Playbook
 description: Public AI agent playbook — apsolut Ghibli tokens on VitePress
 colors:
-  brand: "#3a6ea5"
-  brand-hover: "#2d5a8a"
-  brand-light: "#e8f0f8"
-  brand-muted: "#6b9bc3"
-  brand-sky: "#8eb6d3"
+  brand: "#1f6f5c"
+  brand-hover: "#185748"
+  brand-light: "#e7f4ef"
+  brand-muted: "#6ea99a"
+  brand-sky: "#6bc9ab"
+  dark-brand: "#4fb39a"
   teal: "#7bb3a8"
   teal-light: "#e6f3f1"
   teal-ink: "#3d8f82"
@@ -21,7 +22,7 @@ colors:
   wash-alt: "#e8eef5"
   card: "#ffffff"
   border: "#e2e8f0"
-  border-brand: "#d4e4f2"
+  border-brand: "#d3e6e0"
   text: "#1e293b"
   text-2: "#475569"
   text-3: "#94a3b8"
@@ -33,7 +34,7 @@ colors:
   dark-border: "#2a3a52"
   dark-border-brand: "#334155"
   dark-text: "#f1f5f9"
-  dark-brand-deep: "#1e3a5f"
+  dark-brand-deep: "#14352c"
 typography:
   display:
     fontFamily: "Figtree, ui-sans-serif, system-ui, sans-serif"
@@ -204,16 +205,16 @@ components:
 
 ## Overview
 
-**Creative North Star: "The Cornflower Workshop"**
+**Creative North Star: "The Forest Workshop"**
 
-A calm operator desk for AI agent delivery: blue-tinted paper wash, white cards with soft slate shadows, and cornflower accents that read as craft tools rather than startup marketing. Density favors readable docs — long code, tables, and progressive guides — with just enough lift on interactive cards that the home and index pages feel intentional, not bare.
+A calm operator desk for AI agent delivery: slate paper wash, white cards with soft slate shadows, and forest-green accents that read as craft tools rather than startup marketing. Density favors readable docs — long code, tables, and progressive guides — with just enough lift on interactive cards that the home and index pages feel intentional, not bare.
 
-Typography is Figtree for UI and prose, IBM Plex Mono for commands and step numbers. Color stays in the apsolut Ghibli family (cornflower, teal, coral, gold). Hero name treatment may use a restrained brand→teal gradient; the rest of the product UI does not.
+Typography is Figtree for UI and prose, IBM Plex Mono for commands and step numbers. Color stays in the apsolut Ghibli family (forest, teal, coral, gold). Hero name treatment may use a restrained brand→teal gradient; the rest of the product UI does not.
 
 **Key Characteristics:**
 
-- Blue wash canvas + white elevated cards
-- Cornflower brand, never purple SaaS defaults
+- Slate wash canvas + white elevated cards
+- Forest brand, never purple SaaS defaults
 - Figtree + IBM Plex Mono only for brand faces
 - Soft ambient shadows; hover lifts ~1–2px
 - Progressive level chips (teal / brand / gold / coral)
@@ -221,14 +222,17 @@ Typography is Figtree for UI and prose, IBM Plex Mono for commands and step numb
 
 ## Colors
 
-Cool blue-slate neutrals with a single brand voice and three semantic accents for status and level.
+Cool slate neutrals with a single forest brand voice and three semantic accents for status and level.
 
 ### Primary
 
-- **Cornflower** (`#3a6ea5` / `--gh-brand`): links, active nav, primary buttons, h2 accent, focus rings.
-- **Cornflower deep** (`#2d5a8a` / `--gh-brand-hover`): hover/active brand, table header text (light).
-- **Cornflower mist** (`#e8f0f8` / `--gh-brand-light`): soft fills, active sidebar, tip blocks, chips.
-- **Cornflower sky** (`#6b9bc3` / `--gh-brand-muted`): secondary brand, dark-mode brand text.
+- **Forest** (`#1f6f5c` / `--gh-brand`, light): links, active nav, primary buttons, h2 accent, focus rings. White text on this fill is 6.02:1. The same hex on `#0f172a` is only 2.96:1, so it is not dark-mode text.
+- **Forest deep** (`#185748` / `--gh-brand-hover`, light): hover/active brand, table header text (light). 8.41:1 on white, 7.45:1 on mist.
+- **Forest mist** (`#e7f4ef` / `--gh-brand-light`, light): soft fills, active sidebar, tip blocks, chips.
+- **Forest mid** (`#6ea99a` / `--gh-brand-muted`, light): gradient and border mix only, not small text.
+- **Forest light** (`#4fb39a` / `--gh-brand` and `--vp-c-brand-1`, dark): links and focus. 7.01:1 on `#0f172a`, 5.74:1 on `#1e293b`, 5.24:1 on `#14352c`.
+- **Forest bright** (`#6bc9ab` / `--gh-brand-muted`, dark): headings, badges, link hover. 8.98:1 on `#0f172a`, 7.36:1 on `#1e293b`, 6.71:1 on `#14352c`.
+- **Forest night** (`#14352c` / `--gh-brand-light`, dark): soft fills behind that bright text.
 
 ### Secondary
 
@@ -252,7 +256,7 @@ Cool blue-slate neutrals with a single brand voice and three semantic accents fo
 
 ### Named Rules
 
-**The Cornflower Only Rule.** Brand interactive color is cornflower and its tints. Do not introduce violet/purple brand gradients or indigo-as-primary defaults.
+**The Forest Only Rule.** Brand interactive color is forest green and its tints. Do not introduce violet/purple brand gradients or indigo-as-primary defaults. Workshop teal stays a semantic accent, not a second primary.
 
 **The Soft Fill Rule.** Large surfaces use wash or brand-light tints; solid brand is for small accents (buttons, active states, left card rails) — roughly ≤10–15% of a view.
 
@@ -298,7 +302,7 @@ Hybrid: flat wash canvas + soft slate-tinted shadows on cards, tables, code, cus
 - **Rest** (`0 1px 2px rgba(30, 41, 59, 0.05), 0 1px 3px rgba(30, 41, 59, 0.06)` / `--gh-shadow`): default cards, tables, alt buttons.
 - **Lift** (`0 4px 12px rgba(30, 41, 59, 0.08)` / `--gh-shadow-md`): hover cards, stronger chrome.
 - **Modal** (`0 12px 32px rgba(30, 41, 59, 0.12)` / `--vp-shadow-3`): search shell.
-- **Brand CTA** (`0 1px 2px rgba(45, 90, 138, 0.2), 0 4px 12px rgba(58, 110, 165, 0.25)`): primary hero button only.
+- **Brand CTA** (`0 1px 2px rgba(24, 87, 72, 0.2), 0 4px 12px rgba(31, 111, 92, 0.25)`): primary hero button only.
 
 Nav uses translucent wash + `backdrop-filter: blur(12px)` rather than heavy drop shadow.
 
@@ -321,7 +325,7 @@ Nav uses translucent wash + `backdrop-filter: blur(12px)` rather than heavy drop
 ### Buttons
 
 - **Shape:** 10px radius; weight 600; modest padding.
-- **Primary:** solid cornflower, white text; brand-tinted shadow on hero.
+- **Primary:** solid forest, white text; brand-tinted shadow on hero. Dark mode keeps the `#1f6f5c` fill (white text, 6.02:1) and hovers to `#4fb39a` with `#0f172a` text (7.01:1).
 - **Alt:** white/card fill, hairline border; hover brand border + brand text.
 - **Favorite control:** full-width aside button; gold fill when active.
 
@@ -363,7 +367,7 @@ Nav uses translucent wash + `backdrop-filter: blur(12px)` rather than heavy drop
 ### Do:
 
 - **Do** map new UI through `--gh-*` tokens (and VitePress `--vp-c-*` bridges) in `docs/.vitepress/theme/custom.css`.
-- **Do** keep cornflower `#3a6ea5` and wash `#f0f5f9` as the light-mode identity anchors.
+- **Do** keep forest `#1f6f5c` and wash `#f0f5f9` as the light-mode identity anchors. Dark-mode brand text is `#4fb39a`, not the light-mode base.
 - **Do** use Figtree + IBM Plex Mono for brand typography.
 - **Do** reserve teal / gold / coral for semantic levels and accents, not random decoration.
 - **Do** preserve one-layer cards, soft shadows, and short hover lifts.
@@ -375,5 +379,5 @@ Nav uses translucent wash + `backdrop-filter: blur(12px)` rather than heavy drop
 - **Don't** introduce purple/violet SaaS gradients or neon multi-stop mesh backgrounds.
 - **Don't** nest cards inside cards or build “card soup” index pages.
 - **Don't** use heavy glassmorphism, skeuomorphism, or bounce/elastic motion on docs chrome.
-- **Don't** invent a second brand primary (green-as-brand, pink CTAs, etc.) alongside cornflower.
+- **Don't** invent a second brand primary (blue-as-brand, pink CTAs, etc.) alongside forest.
 - **Don't** flatten dark mode by setting border equal to card (`#1e293b` on `#1e293b`).

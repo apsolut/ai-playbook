@@ -99,7 +99,7 @@ export default defineConfig({
         href: 'https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Mono:wght@400;500;600&display=swap',
       },
     ],
-    ['meta', { name: 'theme-color', content: '#3a6ea5' }],
+    ['meta', { name: 'theme-color', content: '#1f6f5c' }],
     ['meta', { name: 'color-scheme', content: 'light dark' }],
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: 'AI Playbook — ship client AI agents' }],

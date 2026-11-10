@@ -178,7 +178,7 @@ onUnmounted(() => unsub?.())
   align-items: flex-start;
   gap: 0.5rem;
   padding: 1.5rem 1.35rem;
-  border: 1px dashed color-mix(in srgb, var(--gh-brand, #3a6ea5) 30%, var(--gh-border, #e2e8f0));
+  border: 1px dashed color-mix(in srgb, var(--gh-brand, #1f6f5c) 30%, var(--gh-border, #e2e8f0));
   border-radius: 14px;
   background: var(--gh-brand-light, var(--vp-c-bg-soft));
   color: var(--gh-text-2, var(--vp-c-text-2));
@@ -219,7 +219,7 @@ onUnmounted(() => unsub?.())
 }
 
 .fav-item:hover {
-  border-color: color-mix(in srgb, var(--gh-brand, #3a6ea5) 35%, var(--gh-border, #e2e8f0));
+  border-color: color-mix(in srgb, var(--gh-brand, #1f6f5c) 35%, var(--gh-border, #e2e8f0));
   box-shadow: var(--gh-shadow-md, none);
 }
 

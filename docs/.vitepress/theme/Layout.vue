@@ -86,19 +86,19 @@ const { frontmatter } = useData()
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--gh-brand, #3a6ea5);
+  color: var(--gh-brand, #1f6f5c);
   text-decoration: none;
-  background: var(--gh-brand-light, #e8f0f8);
-  border: 1px solid color-mix(in srgb, var(--gh-brand, #3a6ea5) 18%, var(--gh-border, #e2e8f0));
+  background: var(--gh-brand-light, #e7f4ef);
+  border: 1px solid color-mix(in srgb, var(--gh-brand, #1f6f5c) 18%, var(--gh-border, #e2e8f0));
   transition: background 0.15s, border-color 0.15s, transform 0.15s, box-shadow 0.15s;
   box-shadow: 0 1px 2px rgba(30, 41, 59, 0.04);
 }
 
 .nav-fav-link:hover {
-  background: color-mix(in srgb, var(--gh-brand-light, #e8f0f8) 70%, white);
-  border-color: var(--gh-brand, #3a6ea5);
+  background: color-mix(in srgb, var(--gh-brand-light, #e7f4ef) 70%, white);
+  border-color: var(--gh-brand, #1f6f5c);
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(58, 110, 165, 0.15);
+  box-shadow: 0 2px 8px rgba(31, 111, 92, 0.15);
 }
 
 .nav-fav-icon {
@@ -109,7 +109,7 @@ const { frontmatter } = useData()
 }
 
 .dark .nav-fav-link {
-  color: var(--gh-brand-muted, #6b9bc3);
+  color: var(--gh-brand-muted, #6bc9ab);
 }
 
 @media (max-width: 768px) {

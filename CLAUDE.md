@@ -27,7 +27,7 @@ VitePress, Figtree + IBM Plex Mono, apsolut Ghibli tokens, Cloudflare Pages (`do
 ## Design
 
 - Theme: `docs/.vitepress/theme/`
-- Brand: cornflower `#3a6ea5`, wash `#f0f5f9`, no purple SaaS gradient defaults
+- Brand: forest `#1f6f5c`, wash `#f0f5f9`, no purple SaaS gradient defaults
 
 ## Public-repo hygiene
 

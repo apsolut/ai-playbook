@@ -54,7 +54,7 @@ Not a SaaS product and not legal advice. Progressive operator notes shaped for t
 - **Name:** AI Playbook
 - **Tagline voice:** “Ship client AI agents with clear playbooks” — practical, short, operator-facing
 - **Identity owner:** apsolut / AP ([github.com/apsolut](https://github.com/apsolut/))
-- **Visual brand surface (locked):** apsolut Ghibli tokens — cornflower `#3a6ea5`, wash `#f0f5f9`, Figtree + IBM Plex Mono; no purple SaaS gradient defaults; no Inter-only stack
+- **Visual brand surface (locked):** apsolut Ghibli tokens — forest `#1f6f5c`, wash `#f0f5f9`, Figtree + IBM Plex Mono; no purple SaaS gradient defaults; no Inter-only stack
 - **Voice:** clear, first-person practical notes; prefer real delivery paths over academic completeness
 
 ## Evidence on Hand
@@ -72,7 +72,7 @@ Not a SaaS product and not legal advice. Progressive operator notes shaped for t
 1. **Findability over freemium chrome** — search and structure beat marketing flourish.
 2. **Depth is progressive** — label difficulty; don’t dump expert flags on day-one pages.
 3. **Local-first trust** — favorites and search stay on the device; static deploy stays simple.
-4. **Brand is quiet and specific** — cornflower/wash Ghibli identity, not generic purple SaaS.
+4. **Brand is quiet and specific** — forest/wash Ghibli identity, not generic purple SaaS.
 5. **Ship public, keep honest** — MIT personal notes; legal pages disclaim advice; no invented stats.
 6. **EU-first delivery** — prefer EU-hosted LLM options for client personal data; document AVV/DPA hygiene.
 
