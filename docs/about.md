@@ -1,3 +1,8 @@
+---
+title: About
+description: What AI Playbook is, who it is for, and how the static site is built
+---
+
 # About
 
 **AI Playbook** — public operator documentation by [Aleksandar Perisic](https://aleksandarperisic.com/?utm_source=ai-playbook&utm_medium=referral&utm_campaign=about_page&utm_content=author_credit) (apsolut).

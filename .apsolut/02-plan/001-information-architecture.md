@@ -22,10 +22,11 @@ Map every public section and its first pages for the VitePress site. Progressive
 
 | Page | Path | Status | Notes |
 |------|------|--------|-------|
-| Overview | `/work-with-ai/` | Outline | Levels + map |
+| Overview | `/work-with-ai/` | **Full** | Levels + map |
 | Prompting that ships | `/work-with-ai/prompting` | **Full** | First solid guide |
-| Coding agents | `/work-with-ai/coding-agents` | Stub | Claude Code, Cursor, Codex, Grok Build |
-| Workflows & guardrails | `/work-with-ai/workflows` | Stub | Review loops, allow/deny |
+| Coding agents | `/work-with-ai/coding-agents` | **Full** | Claude Code, Cursor, Codex, Grok Build |
+| Workflows | `/work-with-ai/workflows` | **Full** | Plan → review → ship |
+| Guardrails | `/work-with-ai/guardrails` | **Full** | Secrets, review, sandbox, spend |
 
 ## 2 · Run agents (`docs/run-agents/`)
 

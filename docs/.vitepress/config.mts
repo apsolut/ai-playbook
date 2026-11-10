@@ -17,7 +17,8 @@ const sidebar = [
       { text: 'Overview', link: '/work-with-ai/' },
       { text: 'Prompting that ships', link: '/work-with-ai/prompting' },
       { text: 'Coding agents', link: '/work-with-ai/coding-agents' },
-      { text: 'Workflows & guardrails', link: '/work-with-ai/workflows' },
+      { text: 'Workflows', link: '/work-with-ai/workflows' },
+      { text: 'Guardrails', link: '/work-with-ai/guardrails' },
     ],
   },
   {
@@ -73,7 +74,7 @@ export default defineConfig({
   lang: 'en-US',
   cleanUrls: true,
   lastUpdated: true,
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   appearance: {
     initialValue: 'light',
   } as boolean | 'dark' | 'force-dark' | 'force-auto' | { initialValue?: 'dark' },

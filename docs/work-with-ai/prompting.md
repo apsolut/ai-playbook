@@ -9,6 +9,8 @@ description: Practical prompting for client delivery — structure, context, rev
 
 ## Starter — one job per prompt
 
+<LevelBadge level="starter" />
+
 Bad prompts ask for everything. Good prompts name:
 
 1. **Role** — who the model should act as (narrow)
@@ -34,6 +36,8 @@ Check: I will reject any sentence that adds facts not in Context.
 
 ## Everyday — reusable blocks
 
+<LevelBadge level="everyday" />
+
 Keep a small library (private notes, not secrets):
 
 | Block | Use |
@@ -46,6 +50,8 @@ Keep a small library (private notes, not secrets):
 Paste **current** product facts each time. Stale “memory” is how agents hallucinate policy.
 
 ## Advanced — tool-shaped prompts
+
+<LevelBadge level="advanced" />
 
 When the model can call tools (search, tickets, CRM):
 
@@ -63,10 +69,25 @@ Never send in the same turn you draft.
 
 ## Complex — client-safe hygiene
 
+<LevelBadge level="complex" />
+
 - Strip personal data before prompts leave the client environment when possible
 - Prefer EU-hosted APIs for personal data ([compliance checklist](/legal/germany-eu-compliance))
 - Do not paste API keys, `.env`, or private catalogs into chats
 - Keep a human review on anything customer-visible until evals say otherwise
+
+## Review checklist (copy)
+
+Run this before a customer sees the text. Reject the draft if any line fails.
+
+```text
+[ ] Every factual claim appears in the context I pasted
+[ ] No prices, SLAs, legal conclusions, or URLs were invented
+[ ] No names, emails, phone numbers, or ticket IDs that I did not mean to include
+[ ] Output matches the format the next step expects
+[ ] Unknowns are written as unknowns, not as confident guesses
+[ ] I can explain the draft to the client without opening the chat
+```
 
 ## Anti-patterns
 
@@ -79,5 +100,6 @@ Never send in the same turn you draft.
 
 ## Next
 
-- [Coding agents](/work-with-ai/coding-agents) (stub)
-- [Workflows & guardrails](/work-with-ai/workflows) (stub)
+- [Coding agents](/work-with-ai/coding-agents) — which tool, and the repo instructions they share
+- [Workflows](/work-with-ai/workflows) — where the prompt sits in the delivery loop
+- [Guardrails](/work-with-ai/guardrails) — what never goes into the prompt

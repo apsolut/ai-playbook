@@ -1,4 +1,6 @@
 ---
+title: AI Playbook
+description: Practical notes for freelancers and small agencies — prompting, coding agents, running agents, offers, tooling, and Germany/EU compliance
 layout: home
 
 hero:
