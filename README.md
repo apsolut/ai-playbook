@@ -9,7 +9,7 @@ Searchable static docs for freelancers and small agencies: **Work with AI**, **R
 - Full-text **search** (VitePress local search)
 - **Favorites** via browser **IndexedDB** (export/import JSON)
 - Progressive guides: **starter → everyday → advanced → complex**
-- Deploy: **Cloudflare Pages** static output
+- Deploy: **Cloudflare Workers** static assets (`npx wrangler deploy`)
 - Intended repo: [apsolut/ai-playbook](https://github.com/apsolut/ai-playbook)
 
 ## Local
@@ -56,28 +56,29 @@ Open **★ Favorites** in the nav to list, export, or import.
 
 Database name: `apsolut-ai-playbook` (browser profile local only).
 
-## Connecting Cloudflare Pages
+## Deploying on Cloudflare Workers
 
-This repo is a static VitePress site. Connect it in the Cloudflare dashboard; do not commit API tokens, account IDs, or Wrangler credentials.
+This repo is connected as a **Workers** project (Workers Builds), not Pages. VitePress builds a static site; `wrangler deploy` publishes that folder as Worker static assets. Do not commit API tokens, account IDs, or Wrangler credentials.
 
-1. In Cloudflare, open **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-2. Authorize GitHub and select **apsolut/ai-playbook**.
-3. Production branch: `main`. Root directory: repository root (`/`).
-4. Framework preset: **None**. The built-in VitePress preset assumes the docs live at the repo root and writes `.vitepress/dist`. This site keeps sources in `docs/`, so set the build yourself:
+Workers Builds runs two commands. Set them under the Worker's **Build** settings:
 
-   | Setting | Value |
-   |---------|--------|
-   | Build command | `npm run build` |
-   | Build output directory | `docs/.vitepress/dist` |
-   | Node.js | 20+ (`NODE_VERSION=20`) |
+| Setting | Value |
+|---------|--------|
+| Build command | `npm run build` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` (repository root) |
+| Node.js | 20+ |
 
-5. Save and deploy. Pushes to `main` rebuild the site.
+`wrangler.toml` names the Worker `apsolut-ai-playbook` and points `[assets] directory` at `./docs/.vitepress/dist`. There is no Worker script entry point and no `pages_build_output_dir` (that field makes `wrangler deploy` refuse the project as Pages).
 
-`wrangler.toml` names the Pages project `apsolut-ai-playbook` and sets `pages_build_output_dir` to the same output folder. It does not store secrets. A manual upload from a machine that is already logged in to Wrangler:
+HTML routing matches VitePress `cleanUrls`: `html_handling = "auto-trailing-slash"` serves `page.html` at `/page` and `section/index.html` at `/section/`. `not_found_handling = "404-page"` returns VitePress's `404.html` with status 404.
+
+Check the config locally, then deploy only from a machine that is already logged in:
 
 ```bash
 npm run build
-npx wrangler pages deploy docs/.vitepress/dist --project-name=apsolut-ai-playbook
+npx wrangler deploy --dry-run
+npx wrangler deploy
 ```
 
 ## Legal disclaimer
